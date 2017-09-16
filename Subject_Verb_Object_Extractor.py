@@ -1,4 +1,5 @@
 import os
+#Set standford parser and models in your environment variables.
 os.environ['STANFORD_PARSER'] = 'stanford-parser'
 os.environ['STANFORD_MODELS'] = 'stanford-parser'
 from nltk.parse.stanford import StanfordParser
